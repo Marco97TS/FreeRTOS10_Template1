@@ -45,7 +45,7 @@ int main(void)
 	vInitDisplay();
 	
 	xTaskCreate( vLedBlink, (const char *) "ledBlink", configMINIMAL_STACK_SIZE+10, NULL, 1, &ledTask);
-
+	//Test von Marco
 	vDisplayClear();
 	vDisplayWriteStringAtPos(0,0,"FreeRTOS 10.0.1");
 	vDisplayWriteStringAtPos(1,0,"EDUBoard 1.0");
